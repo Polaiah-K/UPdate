@@ -9,7 +9,7 @@ export const Header = () => {
 
         <div>
             <div>
-                <ul id="navbar">
+                <ul className="Header">
                     <li ><a href="/tests" class="Header-list"><i class="fa fa-phone"></i> +01 23456789</a></li>
                     <li><a href="/studyroom" class="Header-list"><i class="fa fa-envelope-o"></i> claue@domain.com</a></li>
                     <li><a href="/flashcards" class="Header-list"><i class="fa fa-car"></i> Track Your Order</a></li>
@@ -21,7 +21,7 @@ export const Header = () => {
                             <option value="saab">Austria</option>
                             <option value="opel">Cuba</option>
                             <option value="audi">Brazil</option>
-                            <option value="audi"></option>
+                            <option value="audi">sdfghj</option>
                             <option value="audi">Brazil</option>
                             <option value="audi">Brazil</option>
                         </select>

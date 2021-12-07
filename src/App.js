@@ -1,8 +1,7 @@
 // import logo from './logo.svg';
 import './App.css';
 import { Footer } from './Footer/Footer';
-
-
+// import Footheader from './Footheader/Footheader';
 import { Header } from './Header/Header';
 import { Middle } from './Middle/Middle'
 import {Middle2} from './Middle2/Middle2.js';

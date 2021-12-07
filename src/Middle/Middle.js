@@ -21,11 +21,12 @@ export const Middle = () => {
             </div>
             <div class="columntv" >
                 <h3>100% PAYMENT SECURE</h3>
-                <p class="midd-style">We ensure secure payment<br/> with PEV</p>
+                <p class="midd-style">We ensure secure payment with PEV</p>
             </div>
             <div>
                 <div class="grid-container">
                     <div class="grid-item item1">
+                        {/* <img src="../Images/lookbook_digital.jpg" style={{height:"90%", width:"90"}} alt=""></img> */}
                         {/* <button>Click me</button> */}
                     </div>
                     

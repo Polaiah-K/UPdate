@@ -3,7 +3,11 @@
     float: left;
     width: 30%;
     padding: 0px;
-    height: 300px; /* Should be removed. Only for demonstration */
+    height: 370px;
+    /* height: 300px; */
+     /* Should be removed. Only for demonstration */
+     padding-top: 5%;
+      text-decoration: none;
   }
   
   /* Clear floats after the columns */
@@ -18,39 +22,44 @@
     float: left;
     width: 15%;
     padding: 0px;
-    height: 300px; /* Should be removed. Only for demonstration */
+    height: 370px; /* Should be removed. Only for demonstration */
   }
   .column3 {
     padding-top: 4% !important;
     float: left;
     width: 15%;
     padding: 0px;
-    height: 300px; /* Should be removed. Only for demonstration */
+    height: 370px; /* Should be removed. Only for demonstration */
   }
   .column4 {
     padding-top: 4%  !important;
     float: left;
     width: 15%;
     padding: 0px;
-    height: 300px; /* Should be removed. Only for demonstration */
+    height: 370px; /* Should be removed. Only for demonstration */
   }
   .column5 {
     padding-top: 4% !important;
     float: left;
-    width: 25%;
+    /* width: 25%; */
     padding: 0px;
-    height: 300px; /* Should be removed. Only for demonstration */
+    height: 370px; /* Should be removed. Only for demonstration */
   }
-  .Footer{
-    /* background-color: #eeeeee; */
+  /* .Footer{
+     background-color: #160d0d;  
     margin-top: 6%;
     
-  }
-  .column1{
-      padding-top: 5%;
-      text-decoration: none;
+  } */
+  /* .newsletter{
+    margin-top: 100%;
+    height: 200px;
+    width:100%;
+    background-color:black;
+  } */
+ 
+      
 
-  }
+  
   .farmat{
       text-decoration: none;
       list-style: none;
@@ -65,3 +74,39 @@
     line-height: 37px;
     color: #878787;
   }
+  .copyright{
+    margin-top: 10%;
+    background-color:#EEEEEE;
+    height: 50px;
+  }
+  .checkup{
+    height: auto;
+    width:auto;
+    /* display:flex; */
+  }
+  .Footer{
+    width: auto;
+    height: 350px;
+  }
+  .copyright-p{
+  text-align:center;
+  font-size: 13px;
+  padding-top: 0px;
+    line-height: 37px;
+    color: #878787
+  }
+  .Footer-list {
+    text-decoration: none;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #EEEEEE;
+}
+
+ul.Footer-list li a {
+  display: block;
+  padding: 8px 16px;
+  text-decoration: none;
+  float:right;
+}

@@ -84,9 +84,11 @@
   
   .grid-container {
     display: grid;
-    grid-gap: 10px;
+    grid-gap: 19px;
     /* background-color: #2196F3; */
     padding: 10px;
+    margin-left: 11px;
+    margin-right: 22px;
     margin-bottom: 5%;
     height: 650px;
   }
@@ -107,6 +109,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     padding: 17%;
+    
+    transition: transform .5s ;
+  }
+  .item1:hover{
+    transform: scale(1.1);
   }
   
   .item2 {

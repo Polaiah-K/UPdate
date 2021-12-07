@@ -1,4 +1,4 @@
-#navbar {
+.Header {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -6,7 +6,7 @@
     background-color: #EEEEEE;
 }
 
-ul#navbar li a {
+ul.Header li a {
     display: block;
      /* color: #000000;  */
     /* font-weight:bold; */
@@ -14,13 +14,13 @@ ul#navbar li a {
     text-decoration: none;
     float:left;
 }
-ul#navbar li a:hover {
+ul.Header li a:hover {
     color:skyblue
     
 }
 
 
-#navabar-right{
+#Header-right{
     float: right;
 
 }

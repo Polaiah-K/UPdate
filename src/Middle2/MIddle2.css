@@ -22,7 +22,51 @@
   .card-1,.card-2,.card-3 {
     width: 100%;
     margin-left: 0px;
+    transition:  transform .5s ease-in ;
+   
+  }
+  .card-1:hover  {
+    transform: scale(1.1);
+  }
+  .card-3:hover {
+    transform: scale(1.1);
+  }
+  .card-2:hover {
+    transform: scale(1.1);
   }
   .Mid-2{
     background-color: lawngreen;
   }
+  .new7{
+    background-color: white !important;
+  }
+.Midd-card{
+  height: 580px;
+  width:100%;
+  /* background-color: blue; */
+}
+.Footer-head{
+  background-color: #EEEEEE;
+  height: 300px;
+  padding-top: 5px;
+  margin-top: 2%;
+}
+.Footersearch{
+
+  width: 509px;
+  
+  height: 46px;
+ 
+  border-radius: 27Px;
+  border: none;
+ 
+  padding-left: 16px;
+  margin-top: 4px;
+}
+.Footer-subscribe{
+  color: #878787;
+  padding-left: 9px ;
+}
+.Newsletter{
+  margin-top: 5%;
+}
