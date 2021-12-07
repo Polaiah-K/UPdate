@@ -8,20 +8,20 @@ export const Middle = () => {
     return (
         <div id="test2">
             <div class="columntv" >
-                <h2>FREE SHIPPING</h2>
-                <p>	Free shipping on all US order</p>
+                <h3 class="midd-style1">FREE SHIPPING</h3>
+                <p class="midd-style">	Free shipping on all <br/> US order</p>
             </div>
             <div class="columntv" >
-                <h2>SUPPORT 24/7</h2>
-                <p>Contact us 24 hours a day, 7 days a week.</p>
+                <h3>SUPPORT 24/7</h3>
+                <p class="midd-style">Contact us 24 hours a day<br/> 7 days a week.</p>
             </div>
             <div class="columntv" >
-                <h2>30 DAYS RETURN</h2>
-                <p>Simply return it within 30 days for an exchange.</p>
+                <h3>30 DAYS RETURN</h3>
+                <p class="midd-style">Simply return it within 30 days<br/> for an exchange.</p>
             </div>
             <div class="columntv" >
-                <h2>100% PAYMENT SECURE</h2>
-                <p>We ensure secure payment with PEV</p>
+                <h3>100% PAYMENT SECURE</h3>
+                <p class="midd-style">We ensure secure payment<br/> with PEV</p>
             </div>
             <div>
                 <div class="grid-container">
@@ -39,7 +39,7 @@ export const Middle = () => {
                 </div>
                 <div class="Text">
                     <h1>----------SMART PHONE------------</h1>
-                    <p>Top view in the week</p>
+                    <p class="midd-style">Top view in the week</p>
                 </div>
                  {/* <div class="grid-container1">
                     <div class="item5"></div>

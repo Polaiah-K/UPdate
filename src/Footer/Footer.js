@@ -4,7 +4,8 @@ import './Footer.css'
 
 export const Footer = () => {
     return (
-        <div class="Footer">
+        <div>
+            <div class="Footer">
             <div class="column1" >
             <div>
             <img src={img} alt=""></img>
@@ -18,39 +19,44 @@ export const Footer = () => {
             </ul>  
         
             </div>
-            <div class="column2"  >
+            <div >
+                <ul class="column2">
                 <h2>Categories</h2>
-                <p>Men</p>
-                <p>Women</p>
-                <p>Accessories</p>
-                <p>Shoes</p>
-                <p>Dresses</p>
-                <p>Skirts</p>
+                <li class="foot-style">Men</li>
+                <li class="foot-style">Women</li>
+                <li class="foot-style">Accessories</li>
+                <li class="foot-style">Shoes</li>
+                <li class="foot-style">Dresses</li>
+                <li class="foot-style">Skirts</li>
+                </ul>
             </div>
             <div class="column3" >
                 <h2>information</h2>
-                <p>About Us</p>
-                <p>Contact Us</p>
-                <p>Terms & Conditions</p>
-                <p>Returns & Exchanges</p>
-                <p>Shipping & Delivery</p>
-                <p>Privacy & Policy</p>
+                <p class="foot-style">About Us</p>
+                <p class="foot-style">Contact Us</p>
+                <p class="foot-style">Terms & Conditions</p>
+                <p class="foot-style">Returns & Exchanges</p>
+                <p class="foot-style">Shipping & Delivery</p>
+                <p class="foot-style">Privacy & Policy</p>
             </div>
             <div class="column4"  >
                             <h2>Quick Links</h2>
                 
-                <p>Store Location</p>
-               <p> My Account</p>
-                <p>Accessories</p>
-               <p> Orders Tracking</p>
-               <p> Size Guide</p>
-                <p>FAQs</p>
+                <p class="foot-style">Store Location</p>
+               <p class="foot-style"> My Account</p>
+                <p class="foot-style">Accessories</p>
+               <p class="foot-style"> Orders Tracking</p>
+               <p class="foot-style"> Size Guide</p>
+                <p class="foot-style"   >FAQs</p>
             </div>
             <div class="column5" >
                 <h2>instagram feed</h2>
                 
             </div>
         </div>
+
+        </div>
+        
         
     )
 }

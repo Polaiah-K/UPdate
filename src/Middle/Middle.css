@@ -15,6 +15,7 @@
       margin-bottom: 10px;
   }
   .columntv1 {
+    font-size: 14px;
     float: left;
     width: 50%;
     background-color:  white;
@@ -175,4 +176,14 @@
  } */
  /* .item8{
     background-image: url(../Images/);
+ } */
+ .midd-style{
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0;
+  color: #878787;
+  line-height: 1.75;
+ }
+ /* .midd-style1{
+  font-size: 14px;
  } */

@@ -10,13 +10,13 @@ export const Header = () => {
         <div>
             <div>
                 <ul id="navbar">
-                    <li><a href="/tests"><i class="fa fa-phone"></i> +01 23456789</a></li>
-                    <li><a href="/studyroom"><i class="fa fa-envelope-o"></i> claue@domain.com</a></li>
-                    <li><a href="/flashcards"><i class="fa fa-car"></i> Track Your Order</a></li>
-                    <li><a href="/library"><i class="fa fa-map-marker" ></i> Store Locator</a></li>
+                    <li ><a href="/tests" class="Header-list"><i class="fa fa-phone"></i> +01 23456789</a></li>
+                    <li><a href="/studyroom" class="Header-list"><i class="fa fa-envelope-o"></i> claue@domain.com</a></li>
+                    <li><a href="/flashcards" class="Header-list"><i class="fa fa-car"></i> Track Your Order</a></li>
+                    <li><a href="/library" class="Header-list"><i class="fa fa-map-marker" ></i> Store Locator</a></li>
 
                     <form action="/">
-                        <select name="cars" id="cars">
+                        <select  class="Header-list" name="cars" id="cars">
                             <option value="volvo">Rusia</option>
                             <option value="saab">Austria</option>
                             <option value="opel">Cuba</option>
@@ -59,9 +59,11 @@ export const Header = () => {
 
             <div class="row">
                 <div class="column" >
-                    <h4>Spring-Summer 2016</h4>
-                    <h1>FLASH SALE OF 70%</h1>
-                    <p>"Duis aute irure dolor in reprehenderit in voluptate velit essecillum dolore eu fugiat nulla pariatur. Excepteu"</p>
+                    <h4  class= "new2"
+                    >Spring-Summer 2016</h4>
+                    <h1 class="new3">FLASH SALE OF 70%</h1>
+                    <p  class ="new4">Duis aute irure dolor in reprehenderit in voluptate <br></br>
+                    velit essecillum dolore eu fugiat nulla pariatur. Excepteu</p>
                     <button type="button" class="btn-Type">Shop now</button>
                 </div>
                 {/* <div class="column" >

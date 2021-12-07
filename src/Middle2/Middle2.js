@@ -33,6 +33,7 @@ export const Middle2 = () => {
                     <p>By admin on jul 30,2021</p>
             </div>
             </div>
+            
 
 
         </div>
