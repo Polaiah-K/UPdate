@@ -1,0 +1,56 @@
+.column1 {
+    padding-top: 5% !important;
+    float: left;
+    width: 30%;
+    padding: 0px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .column2 {
+    padding-top: 4% !important;
+    float: left;
+    width: 15%;
+    padding: 0px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  .column3 {
+    padding-top: 4% !important;
+    float: left;
+    width: 15%;
+    padding: 0px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  .column4 {
+    padding-top: 4%  !important;
+    float: left;
+    width: 15%;
+    padding: 0px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  .column5 {
+    padding-top: 4% !important;
+    float: left;
+    width: 25%;
+    padding: 0px;
+    height: 300px; /* Should be removed. Only for demonstration */
+  }
+  .Footer{
+    background-color: #eeeeee;
+    margin-top: 6%;
+    
+  }
+  .column1{
+      padding-top: 5%;
+      text-decoration: none;
+
+  }
+  .farmat{
+      text-decoration: none;
+      list-style: none;
+  }

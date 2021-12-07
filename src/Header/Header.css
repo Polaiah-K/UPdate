@@ -1,0 +1,154 @@
+#navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #EEEEEE;
+}
+
+ul#navbar li a {
+    display: block;
+     color: #000000; 
+    /* font-weight:bold; */
+    padding: 8px 16px;
+    text-decoration: none;
+    float:left;
+}
+ul#navbar li a:hover {
+    color:skyblue
+    
+}
+
+
+#navabar-right{
+    float: right;
+
+}
+#cars{
+    float: right;
+    margin-right: 82px;
+    margin-top: 10px;
+    border: none;
+    background-color: #EEEEEE;
+}
+ #navabar1{
+    float: right; 
+
+}
+#navbar1 {
+    list-style-type: none;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    padding: 0;
+    overflow: hidden;
+    
+}
+
+ul#navbar1 li a {
+    display: block;
+    color: #000000; 
+    /* font-weight:bold; */
+    padding: 8px 8px;
+    text-decoration: none;
+    float:right;
+    margin-right: 30px;
+    
+}
+
+li a:hover {
+color: cadetblue;
+}
+ #Nav{
+    float: left;
+    padding-top: 5px;
+    margin-left: 50px;
+} 
+
+#navbar2 {
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px 0px;
+    overflow: hidden;
+    background-color: #201313;
+    }
+
+ul#navbar2  li a{
+    display: block;
+    color: #e9e0e0; 
+   /* font-weight:bold; */
+   padding: 8px 16px;
+   text-decoration: none;
+   float:right;
+      
+}
+img {
+    border-radius: 8px;
+    width: 100px;
+    margin-left:100px ;
+  }
+  
+
+
+
+.Search{
+    position: absolute;
+    width: 509px;
+    height: 32px;
+    margin-left: 347px;
+    border: none;
+    border-radius: 15Px;
+    padding-left: 16px;
+    margin-top: 4px;
+       
+}  
+.navbar3{
+    height: 800px;
+    
+    background-color: rgb(204, 195, 195);
+}
+ /* H1,p,h4{
+    text-align: center; 
+} */
+.button{
+    color: darkmagenta;
+    margin-left: 500px;
+    border-radius: 2px;
+}
+    .column {
+    float: left;
+    width: 95%;
+    padding: 0px;
+    height: 300px; 
+    background-color: #EEEEEE;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    padding-left: 5%;
+    background-image: url(../Images/digital_slider_1.jpg);
+    
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+    
+  }
+  .col-3-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    max-width: 100%;
+    height: auto;
+  }
+  .btn-Type{
+    border: 2px solid black;
+    border-radius: 19px;
+    padding: 10px 20px;
+  }
+  .btn-Type:hover{
+     background-color:skyblue;
+     color:white;
+  }
+   
