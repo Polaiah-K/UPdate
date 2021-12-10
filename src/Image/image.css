@@ -1,0 +1,31 @@
+.Pola{
+    background-color: grey;
+}
+.column {
+    float: left;
+    width: 30.33%;
+    padding: 6px;
+    height: 500px;  
+    /* background-color: green; */
+    margin: 10px;
+    display:flex;
+    flex-direction: row;
+
+  }
+  
+   .card-2{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+    cursor: pointer;
+
+  }
+  .column img {
+      transform: scale(1);
+      transition: 0.5s ease-in;
+
+  }
+  .column .card-2:hover {
+      transform: scale(1.2);
+  }
+   

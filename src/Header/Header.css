@@ -1,15 +1,20 @@
+ .Header-fl{
+ flex-direction: column;
+ display: flex;
+}
 .Header {
+
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding-left:  50px;
     overflow: hidden;
     background-color: #EEEEEE;
 }
 
+
 ul.Header li a {
     display: block;
-     /* color: #000000;  */
-    /* font-weight:bold; */
+   
     padding: 8px 16px;
     text-decoration: none;
     float:left;
@@ -31,29 +36,32 @@ ul.Header li a:hover {
     border: none;
     background-color: #EEEEEE;
 }
- #navabar1{
+ .navabar1{
     float: right; 
 
 }
-#navbar1 {
+.navbar1 {
     list-style-type: none;
     margin-top: 20px;
-    margin-bottom: 20px; 
-    padding: 0;
+    margin-bottom: 20px;
     overflow: hidden;
+    padding-left: 15px;
+    padding-right: 55px;
+   
+
     
 }
 
-ul#navbar1 li a {
+ul.navbar1 li a {
     display: block;
      color: #000000;  
-    /* font-weight:bold; */
+   
     padding: 5px 5px;
     text-decoration: none;
     float:right;
     margin-right: 30px;
     transition: all 300ms;
-    /* font-family: 'Poppins','Open Sans','Helvetica Neue'; */
+    
     
 }
 
@@ -66,18 +74,19 @@ color: cadetblue;
     margin-left: 50px;
 } 
 
-#navbar2 {
+.navbar2 {
     list-style-type: none;
     margin: 0px;
     padding: 10px 0px;
     overflow: hidden;
     background-color: #201313;
+    padding-right: 84px;
     }
 
-ul#navbar2  li a{
+ul.navbar2  li a{
     display: block;
     color: #e9e0e0; 
-   /* font-weight:bold; */
+  
    padding: 8px 16px;
    text-decoration: none;
    float:right;
@@ -108,9 +117,7 @@ img {
     
     background-color: rgb(204, 195, 195);
 }
- /* H1,p,h4{
-    text-align: center; 
-} */
+
 .button{
     color: darkmagenta;
     margin-left: 500px;

@@ -2,16 +2,19 @@
     float: left;
     width: 25%;
     padding: 0px;
-    height: 200px; /* Should be removed. Only for demonstration */
+    height: 200px; 
+    text-align: center;
+    display: flex;
+    flex-direction: row;
   }
   
-  /* Clear floats after the columns */
+  
   .row:after {
     content: "";
     display: table;
     clear: both;
   }
-  #test2{
+  .test2{
       margin-bottom: 10px;
   }
   .columntv1 {
@@ -19,16 +22,14 @@
     float: left;
     width: 50%;
     background-color:  white;
-    height: 200px; /* Should be removed. Only for demonstration */
+    height: 200px; 
     
   }
   .column8{
-    /* margin: 1% 0%;  */
-    float: left;
-    width: 48%;
-    /* padding: 10px; */
-    margin-left: 20px;
-    height: 300px; /* Should be removed. Only for demonstration */
+   float: left;
+    width: 45%;
+     margin-left: 20px; 
+    height: 300px; 
     background-image: url(../Images/lookbook_digital.jpg);
     background-repeat:no-repeat;
     
@@ -36,9 +37,9 @@
   .column9{
     
     float: left;
-    width: 48%;
+    width: 45%;
     
-    margin-left: 20px;
+     margin-left: 20px; 
     height: 300px; 
     background-image: url(../Images//sale_head_phone.jpg);
     background-repeat:no-repeat;
@@ -85,12 +86,12 @@
   .grid-container {
     display: grid;
     grid-gap: 19px;
-    /* background-color: #2196F3; */
+    
     padding: 10px;
     margin-left: 11px;
     margin-right: 22px;
     margin-bottom: 5%;
-    height: 650px;
+    height: 719px;
   }
   
   .grid-item {
@@ -128,7 +129,7 @@
     background-image: url(../Images//digital_accessories.jpg);
     background-repeat: round;
     background-size: cover;
-    /* padding: 17%; */
+   
   }
   .item4{
     background-image: url(../Images//digital_watch.jpg);
@@ -167,23 +168,15 @@
   font-size: 30px;
 }
 
-/* .item5{
-    background-image: url(../Images/product_4_1.jpg);
-    
-} */
+
+
  .item6{
     background-image: url(../Images/banner_smart_tab.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: fit-content;
  }
- /* .item7{ 
-    background-image: url(../Images/product_51_4_1_1.jpg);
-
- } */
- /* .item8{
-    background-image: url(../Images/);
- } */
+ 
  .midd-style{
   font-size: 14px;
   font-weight: 400;
@@ -191,6 +184,68 @@
   color: #878787;
   line-height: 1.75;
  }
- /* .midd-style1{
-  font-size: 14px;
- } */
+ .Smartphone-blog {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  /* background-color: #2196F3; */
+  padding: 10px;
+  margin-top: 20px;
+
+  height: 427px;
+
+  width: auto;
+}
+.grid-item {
+  background-color: #aaa;
+   border: 6px solid white; 
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  
+}
+.Image1{
+  height: 400px;
+  background-color: rgb(27, 223, 230);
+  display: flex;
+  flex-direction: column;
+}
+.Image2{
+   display: flex;
+   flex-direction: column;
+   
+   
+}
+.grid-item2{
+  background-color: #aaa;
+   border: 6px solid white; 
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  height: 150px;
+}
+.Image3{
+  display: flex;
+  flex-direction: column;
+}
+.grid-item3{
+  background-color: #aaa;
+   border: 6px solid white; 
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  height: 150px;
+}
+.Image4{
+  display: flex;
+  flex-direction: column;
+}
+.grid-item4{
+  background-color: #aaa;
+   border: 6px solid white; 
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  height: 150px;
+}
+ 
+ 

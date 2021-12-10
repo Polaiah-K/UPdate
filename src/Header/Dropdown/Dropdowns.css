@@ -1,0 +1,21 @@
+.column {
+    float: left;
+    width: 29%;
+    padding: 0px;
+    height: 300px; 
+    margin: 25px;
+    
+  }
+  
+  
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .PL{
+      padding-left: 20px;
+  }
+  .HL{
+      padding-left: 20PX;
+  }
